@@ -28,8 +28,8 @@ This repository provides everything you need to go from Kubernetes networking be
 
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/k8s-networking-24h.git
-cd k8s-networking-24h
+git clone https://github.com/kubeskills/networking.git
+cd networking
 
 # Run setup script (installs kind, kubectl, and creates test cluster)
 ./setup.sh
