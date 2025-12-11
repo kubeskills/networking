@@ -40,7 +40,7 @@ kubectl get nodes
 
 ### Alternative: Browser-Based (No Installation)
 
-Use **Play with Kubernetes**: https://labs.play-with-k8s.com/
+Use **Killercoda Kubernetes Labs**: https://killercoda.com/
 
 ## 📚 Course Structure
 
