@@ -1,4 +1,4 @@
-# 🚀 Master Kubernetes Networking in 24 Hours
+# 🚀 Accelerate Your Kubernetes Networking Skills in 24 Hours
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-v1.28+-blue.svg)](https://kubernetes.io/)
