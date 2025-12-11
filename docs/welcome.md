@@ -8,4 +8,5 @@ title: "You're in – KubeSkills Networking"
 Boom! You're officially confirmed and on the list. Check your email for the AI prompt!
 
 ## More Resources
-- Run labs and test yourself: https://github.com/kubeskills/networking
+- Run labs and test yourself: [https://github.com/kubeskills/networking](https://github.com/kubeskills/networking)
+- Join [Certified Kubernetes Networking Group in KubeSkills](https://community.kubeskills.com/c/ckne/)
