@@ -1,0 +1,22 @@
+# Kubernetes Networking Flashcards
+# Format: Question|Answer (pipe-separated for easy import)
+
+What are the 3 main requirements of the Kubernetes network model?|1) Pod-to-Pod communication without NAT, 2) Node-to-Pod communication without NAT, 3) Pod sees its own IP (no port translation)
+
+What does CNI stand for and what does it do?|Container Network Interface. Allocates IP addresses to Pods, creates network interfaces, and sets up routing when Pods are created/destroyed
+
+What is the DNS format for a Service?|<service>.<namespace>.svc.cluster.local → ClusterIP
+
+What are the 4 Service types?|ClusterIP, NodePort, LoadBalancer, ExternalName
+
+What does a default-deny NetworkPolicy look like?|podSelector: {}, policyTypes: [Ingress, Egress], no rules defined
+
+How do you allow DNS in default-deny egress?|Egress to kube-system namespace on UDP port 53
+
+What's the StatefulSet Pod DNS format?|<pod-name>.<service>.<namespace>.svc.cluster.local
+
+Why use EndpointSlices vs Endpoints?|Better scalability - 100 endpoints per slice max
+
+Overlay (VXLAN) vs BGP networking?|Overlay=encapsulation (10-15% overhead), BGP=native L3 routing (faster)
+
+Expected Pod-to-Pod latency?|Same node: <1ms, Cross-node: 1-5ms, Cross-AZ: 5-20ms

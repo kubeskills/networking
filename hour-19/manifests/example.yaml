@@ -1,0 +1,8 @@
+# Placeholder manifest
+# Actual manifests to be added based on the hour's labs
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: placeholder
+data:
+  note: "Replace with actual manifests for this hour"

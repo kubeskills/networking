@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-frontend
+  namespace: backend
+spec:
+  podSelector:
+    matchLabels:
+      run: db  # Postgres pod has label run=db
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          name: frontend  # Must label namespace with this
+    ports:
+    - protocol: TCP
+      port: 5432
