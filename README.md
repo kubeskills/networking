@@ -97,7 +97,6 @@ cat assessment.md
 **Short on time?**
 
 - **12-Hour Priority Track:** See [`COMPRESSED-12H.md`](COMPRESSED-12H.md)
-- **8-Hour Critical Track:** See [`COMPRESSED-8H.md`](COMPRESSED-8H.md)
 
 ### Learning Techniques
 
