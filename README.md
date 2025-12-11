@@ -103,7 +103,6 @@ cat assessment.md
 - **Pomodoro:** 25m focus + 5m breaks (automated timer in `scripts/pomodoro.sh`)
 - **Flashcards:** Anki-compatible deck in [`flashcards/`](flashcards/)
 - **Active Recall:** Assessment questions at end of each hour
-- **Spaced Repetition:** Review schedule in [`STUDY-SCHEDULE.md`](STUDY-SCHEDULE.md)
 
 ## 🎓 Certification Alignment
 
