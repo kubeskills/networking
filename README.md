@@ -131,8 +131,6 @@ k8s-networking-24h/
 ├── setup.sh                     # One-command setup script
 ├── CHEATSHEET.md               # One-page reference
 ├── COMPRESSED-12H.md           # 12-hour priority track
-├── COMPRESSED-8H.md            # 8-hour critical track
-├── STUDY-SCHEDULE.md           # Spaced repetition schedule
 ├── hour-01/                    # Hour 1: Pod Network Fundamentals
 │   ├── README.md
 │   ├── lab.sh
@@ -156,10 +154,6 @@ k8s-networking-24h/
 │   ├── pomodoro.sh
 │   ├── check-progress.sh
 │   └── reset-cluster.sh
-└── resources/                  # Additional materials
-    ├── diagrams/
-    ├── videos.md
-    └── external-links.md
 ```
 
 ## 🤝 Contributing
@@ -179,7 +173,7 @@ MIT License - See [LICENSE](LICENSE) for details
 ## 🙏 Acknowledgments
 
 - Official Kubernetes documentation
-- CNCF Kubernetes Networking SIG
+- [CNCF Kubernetes Networking SIG](https://github.com/kubernetes/community/tree/master/sig-network)
 - Calico, Cilium, and Flannel communities
 - NetworkPolicy recipes by [@ahmetb](https://github.com/ahmetb)
 
@@ -187,7 +181,7 @@ MIT License - See [LICENSE](LICENSE) for details
 
 - **Issues:** GitHub Issues for bugs/questions
 - **Discussions:** GitHub Discussions for general help
-- **Community:** Join `#kubernetes-networking` on Kubernetes Slack
+- **Community:** Join [CKNE - Certified Kubernetes Networking Engineeer](https://community.kubeskills.com/c/ckne/) Community in KubeSkills
 
 ## 🗺️ Learning Path
 
